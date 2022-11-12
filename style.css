@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
+body {
+    background: url("meow.jpg") no-repeat;
+    background-size: cover;
+}
+
+div {
+    background: rgb(149, 246, 151);
+    color: purple;
+    margin: 2px 2px 2px 2px;
+    border: 5px solid rgb(248, 143, 224);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+.pinkBackground {
+    background: #CE9BBB;
+    color: rgb(255, 0, 204);
+    margin: 2px 2px 2px 2px;
+    border: 5px solid purple;
+}
+
+#sampleId {
+    color: black;
+}
+
+.samplebox {
+    background: red;
+    margin: 2px 2px 2px 2px;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid purple;
+    -webkit-box-shadow: 14px 2px 37px -7px rgba(214, 34, 214, 1);
+    -moz-box-shadow: 14px 2px 37px -7px rgba(214, 34, 214, 1);
+    box-shadow: 14px 2px 37px -7px rgba(214, 34, 214, 1);
+    font-size: 20px;
+    font-display: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.overflowSample {
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    text-indent: 40px;
+}
